@@ -1,0 +1,111 @@
+#Basic messages
+ignore_successful: "&bYay! Successfully ignored player&r&a %s&r"
+already_ignoring: "&cU are already ignoring that player"
+ignore_command_syntax: "&cPlz include a player /ignore <playerName>"
+unignore_successful: "&bYay! Successfully unignored player&r&a %s&r"
+unignore_not_ignoring: "&cU arent ignoring %s"
+unignore_command_syntax: "&cPlz include a player /unignore <playerName>"
+whisper_from: "&d%s Whispers: %s"
+whisper_to: "&dTo %s: %s"
+whisper_ignoring: "&c%s is ignoring you :("
+whisper_you_are_ignoring: "&cU cannot message a player that U have ignored"
+msg_could_not_find_player: "&cCould not find player %s"
+msg_command_syntax: "&cPlz include a target and a message /msg <target> <message>"
+reply_player_offline: "&cDa player %s is offline"
+reply_no_target: "&cU have not messaged anyone yet"
+reply_command_syntax: "&cPlz include a message /r <message>"
+togglechat_chat_enabled: "&aEnabled chat :)"
+togglechat_chat_disabled: "&cDisabled chat :("
+cmdwhitelist_cmd_not_allowed: "&cDa command&r&a %s&r&c is not allowed"
+chat_cooldown: "&bPlz wait at least&r&a %d&r&b seconds between chat messages"
+delhome_no_homes: "&bBoo! U do not have any homes"
+delhome_specify_home: "&bPlz include the name of a home to delete. Current homes: (&r&a%s&r&b)&r"
+delhome_home_not_found: "&bBoo! Home&r&a %s&r&b was not found"
+delhome_success: "&bYay! Home&r&a %s&r&b has been deleted"
+delhome_fail: "&bBoo! Could not delete&r&a %s&r"
+home_no_homes: "&bBoo! No homes found"
+home_specify_home: "&Plz include a home! Current homes: (&r&a%s&r&b)&r"
+home_too_close: "&bU must be&r&a %d&r&b blocks from spawn in order to use /home"
+home_success: "&bTeleporting to home&r&a %s&r&b..."
+home_not_found: "&bHome&r&a %s&r&b was not found :("
+sethome_include_name: "&bPlz include a name for ur new home"
+sethome_home_already_exists: "&cA home by the name&r&a %s&r&c already exists.:("
+sethome_max_reached: "&bBoo! Max number of homes reached!"
+sethome_success: "&bYay! Home&r&a %s &r&bSet"
+kick_restarting: "&bBoo! Da server is restarting"
+elytra_too_fast: "&bHey! U are going too fast with ur elytra"
+elytras_disabled: "&bBoo! Elytras are currently disabled due to server lag. Dey should be back shortly"
+bookban_inventory_clear: "&cUr inventory has been cleared to prevent u from being book bye bye fowevur by book"
+bookban_removed_item: "&cRemoved all&r&b %s(s) &r&cfrom ur inventory to prevent u from bye bye fowevur by book"
+kick_lever_ratelimit: "&cU are interacting too fast"
+kick_pps_limit: "&cU are sending packets too fast!"
+kick_failed_to_inject: "&cFailed to inject"
+join_message: "&7%s joined :)"
+player_join_first_time: "&7%s joined for the first time :)"
+leave_message: "&7%s left"
+kick_message: "&7%s was kicked for \"%s\""
+could_not_translate_message: "Failed to twanswate message due to %s"
+message_auto_translated: "Dis message has been twanswated automaticawwy.\n\nOriginal Text: %s"
+welcome_message: "&bYay! Welcome to 8b8t"
+vote_announcement: "&c%s &6voted fur &18b&98t &6and wuz givun fwee /nc an' 2 extwa homes"
+vote_thanks: "Thanks fur voting fur &18b&98t &6you have been givun fwee /nc an 2 extwa homes"
+tpa_syntax: "&cPlz include a player to tpa to. /tpa <player>"
+tpa_player_not_online: "&cPlayer %s is not online :,("
+tpa_no_request_found: "&cNo TPA request found :,("
+tpa_self_tpa: "&cU cannot TPA to ur self, dummy :,("
+tpa_request_received: "&a%s&r&b would like to teweport to u&r&a/tpayes &bUSERNAME &c/tpano &bUSERNAME"
+tpa_request_sent: "&bYay! Request sent to&r&a %s"
+tpa_already_sent: "&cU already have a pending request"
+tpa_teleporting: "&bYay! Teleporting&r&a..."
+tpa_request_timeout: "&cTPA Request timed out"
+tpa_request_denied_from: "&a%s&r&b has denied ur request"
+tpa_request_denied_to: "&bYay! Request denied successfully"
+tpa_pending_request: "&a%s&r &bhas a pending request"
+tpa_to_left: "&cTPA cancelled because&r&a %s&r&c left"
+#Complex messages
+HelpMessage:
+  - '&1--------------------------------------'
+  - '&6Visit &chttps://www.8b8t.me &6to read teh rulez'
+  - '&c/tpa &6to teleport to anofur player'
+  - '&c/sethome &6to set a home at ur location'
+  - '&c/delhome &6to delete a home u set'
+  - '&c/home &6to teleport to a home u set'
+  - '&c/skin set &6to set ur skin'
+  - '&c/vote &6to vote for 8b8t'
+  - '&c/discord &6get an invite to teh 8b8t discord'
+  - '&c/kill &6to kill urself'
+  - '&c/ignore &6to ignore other players'
+  - '&c/msg &6to message other players'
+  - '&c/changepass &6To change ur password'
+  - '&c/joindate &6Check urz and others joindate'
+  - '&c/worldstats &6View teh world size'
+  - '&c/pvp &6Connect to 8b8t PVP'
+  - '&c/lobby &6Connect to lobby'
+  - '&c/tps &6To check server ticks per second'
+  - '&1-------------Voter Only---------------'
+  - '&c/nc &6To set name colour'
+  - '&6Visit &chttps://votefor.8b8t.me &6to vote'
+  - '&1------------Donator Only--------------'
+  - '&c/seen &6See when a player last joined'
+  - '&c/echest &6Open ur ender chest'
+  - '&c/nick &6Set a nickname'
+  #    - '&c/linkdiscord &6link ur discord to ur 8b8t account'
+  - '&6Visit &chttps://donate.8b8t.me &6to donate'
+  - '&1--------------------------------------'
+TabList:
+  Header:
+    - ''
+    - '&18builders&98tools'
+    - ''
+    - '&68b8t Now wuns on folia and featuwws wiww wetuwn'
+    - ''
+
+  Footer:
+    - ''
+    - '&7tps:&r %tps% &7ping: &r%ping% &7players: &f%players% &7uptime: %uptime%'
+    - ''
+    - '&7Contact: contact@8b8t.me'
+    - '&7Discussion: https://discord.8b8t.me'
+    - '&7Website: https://www.8b8t.me'
+    - '&7These are teh only official 8b8t websites and contacts'
+    - ''
